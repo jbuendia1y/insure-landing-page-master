@@ -1,0 +1,55 @@
+.menu{
+    position: relative;
+    background-color: $White;
+    padding: 1em;
+
+    &__list{
+        visibility: hidden;
+        opacity: 0;
+        padding: 0;
+        transition: all .5s;
+
+        position: absolute;
+        left: 0;
+        z-index: 500;
+
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        
+        width: 100%;
+        height: 100vh;
+
+        background-color: $Very-Dark-Violet;
+        background-image: url('/docs/assets/background/bg-pattern-mobile-nav.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+    &__item{
+        margin: 1.5em 0;
+        text-transform: uppercase;
+
+        &-active{
+            @include button;
+            padding-left: 5em;
+            padding-right: 5em;
+        }
+    }
+}
+
+.box-menu{
+    &__items{
+        margin-top: 1em;
+        list-style: none;
+        color: $White;
+        font-size: 1.25em;
+        font-weight: 700;
+    }
+}
+
+.logo{
+    display: block;
+    margin-right: auto;
+    max-width: 100%;
+}

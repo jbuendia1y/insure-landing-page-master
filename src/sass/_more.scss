@@ -1,0 +1,40 @@
+.more{
+    margin: 5em 0;
+    margin-bottom: 10em;
+
+    &__box{
+        background-color: $Dark-Violet;
+        position: relative;
+        flex-direction: column;
+        padding: 4em 0;
+
+        &::before{
+            content: "";
+            display: block;
+            position: absolute;
+            z-index: 100;
+            top: 0;
+            right: 0;
+            width: 60%;
+            height: 100%;
+            background-image: url('/docs/assets/background/bg-pattern-how-we-work-mobile.svg');
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+    }
+
+    &__title{
+        color: $White;
+        font-family: $Font-Heads;
+        font-size: 2.5em;
+        margin-top: 0;
+    }
+
+    &__button{
+        @include button;
+    }
+    &__title,&__button{
+        position: relative;
+        z-index: 200;
+    }
+}

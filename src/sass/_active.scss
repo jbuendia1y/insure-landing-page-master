@@ -1,0 +1,10 @@
+.active{
+    &__menu{
+        visibility: visible;
+        opacity: 100;
+    }
+
+    &__body-hiX{
+        overflow-y: hidden;
+    }
+}

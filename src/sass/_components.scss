@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 85%;
+}
+
+@mixin flexCenter-column {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+@mixin flexCenter-columnReverse {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+@mixin button {
+    text-decoration: none;
+    color: $Very-Light-Gray;
+    border: 2px solid $Very-Light-Gray;
+    padding: .5em 1em;
+    text-transform: uppercase;
+    &:hover{
+        background-color: $White;
+    }
+}

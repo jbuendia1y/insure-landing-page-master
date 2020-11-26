@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="shortcut icon", href="assets/icons/favicon-32x32.png", type="image/x-icon")
+
+        link(rel="stylesheet", href="https://necolas.github.io/normalize.css/8.0.1/normalize.css")
+        link(rel="preconnect",href="https://fonts.gstatic.com")
+        link(href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap",rel="stylesheet") 
+        link(rel="preconnect", href="https://fonts.gstatic.com")
+        link(href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap", rel="stylesheet")
+
+        link(rel="stylesheet",href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css")
+
+        link(rel="stylesheet", href="css/styles.css")
+        title Document
+    body
+        .box-container
+            nav.menu
+                .container
+                    img(src="assets/icons/logo.svg", alt="logo").logo
+                    .box-menu
+                        .box-menu__hamburger
+                            img(src="assets/icons/icon-hamburger.svg", alt="icon-hamburger-menu").box-menu__img
+                        ul.menu__list
+                            .box-menu__items
+                                li.menu__item How we work
+                                li.menu__item Blog
+                                li.menu__item Account
+                                li.menu__item.menu__item-active View plans
+
+            header.header
+                .container.header__box
+                    .header__text
+                        h1.header__title  Humanizing your insurance.
+                        p.header__paragraph   Get your life insurance coverage easier and faster. We blend our expertise 
+                            |   and technology to help you find the plan that’s right for you. Ensure you 
+                            |   and your loved ones are protected.
+                        a(href="#").header__button View plans
+                    .header__img
+                        img(src="assets/images/image-intro-mobile.jpg", alt="image-intro-mobile").header__main-img
+            section.features
+                .container.features__box
+                    h2.features__title  We’re different
+                    .grid
+                        .grid__item
+                            img(src="assets/icons/icon-snappy-process.svg", alt="icon-snappy-process").features__img
+                            h3.features__subtitle  Snappy Process
+                            p.features__paragraph   Our application process can be completed in minutes, not hours. Don’t get 
+                                |   stuck filling in tedious forms.
+                        .grid__item
+                            img(src="assets/icons/icon-affordable-prices.svg", alt="icon-affordable").features__img
+                            h3.features__subtitle  Affordable Prices
+                            p.features__paragraph   We don’t want you worrying about high monthly costs. Our prices may be low, 
+                                |   but we still offer the best coverage possible.
+                        .grid__item
+                            img(src="assets/icons/icon-people-first.svg", alt="icon-people-first").features__img
+                            h3.features__subtitle  People First
+                            p.features__paragraph   Our plans aren’t full of conditions and clauses to prevent payouts. We make 
+                                |   sure you’re covered when you need it.
+            section.more
+                .container.more__box
+                    h2.more__title  Find out more about how we work
+                    a(href="#").more__button How we work
+            footer.footer
+                .container.footer__box
+                    .socials
+                        .socials__logo
+                            img(src="assets/icons/logo.svg", alt="logo").logo__img
+                        .socials__redes
+                            a(href="#").socials__link
+                                img(src="assets/icons/icon-facebook.svg", alt="icon-facebook").socials__img
+                            a(href="#").socials__link
+                                img(src="assets/icons/icon-twitter.svg", alt="icon-twitter").socials__img
+                            a(href="#").socials__link
+                                img(src="assets/icons/icon-pinterest.svg", alt="icon-pinterest").socials__img
+                            a(href="#").socials__link
+                                img(src="assets/icons/icon-instagram.svg", alt="icon-instagram").socials__img
+                    hr.footer__row
+                    .information
+                        .information__item
+                            h4.information__title  Our company
+                            .information__links
+                                a(href="#").information__links-m How we work
+                                a(href="#").information__links-m Why Insure?
+                                a(href="#").information__links-m View plans
+                                a(href="#").information__links-m Reviews
+                        .information__item
+                            h4.information__title  Help me
+                            .information__links
+                                a(href="#").information__links-m FAQ
+                                a(href="#").information__links-m Terms of use
+                                a(href="#").information__links-m Privacy policy
+                                a(href="#").information__links-m Cookies
+                        .information__item
+                            h4.information__title  Contact
+                            .information__links
+                                a(href="#").information__links-m Sales
+                                a(href="#").information__links-m Support
+                                a(href="#").information__links-m Live chat
+                        .information__item
+                            h4.information__title  Others
+                            .information__links
+                                a(href="#").information__links-m Careers
+                                a(href="#").information__links-m Press
+                                a(href="#").information__links-m Licenses
+        script(src="js/index.js")
+

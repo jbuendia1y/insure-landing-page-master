@@ -1,0 +1,60 @@
+.footer{
+    position: relative;
+    background-color: $Very-Light-Gray;
+    padding: 5em 0;
+
+    &::before{
+        content: "";
+        display: block;
+        position: absolute;
+        z-index: 100;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        background-image: url('/docs/assets/background/bg-pattern-footer-mobile.svg');
+        background-repeat: no-repeat;
+    }
+
+    &__box{
+        position: relative;
+        z-index: 200;
+        flex-direction: column;
+    }
+    &__row{
+        width: 100%;
+        margin: 2em;
+        color: $Dark-Grayish-Violet;
+    }
+}
+
+.socials{
+    &__logo{
+        margin-bottom: 1.5em;
+    }
+    &__redes{
+        display: flex;
+        justify-content: center;
+    }
+    &__img{
+        margin: .5em;
+    }
+}
+
+.information{
+    &__title{
+        color: $Dark-Grayish-Violet;
+    }
+
+    &__links{
+        @include flexCenter-column;
+
+        &-m{
+            margin: .5em;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: $Very-Dark-Violet;
+        }
+    }
+
+}

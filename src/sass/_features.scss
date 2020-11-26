@@ -1,0 +1,28 @@
+.features{
+    margin-top: 6.5em;
+    &__box{
+        flex-direction: column;
+    }
+
+    &__title,&__subtitle{
+        font-family: $Font-Heads;
+    }
+    &__title{
+        font-size: 2.5em;
+    }
+    &__subtitle{
+        font-size: 1.5em;
+    }
+
+    &__paragraph{
+        margin: 0 auto;
+        line-height: 22.5px;
+        color: $Dark-Grayish-Violet;
+    }
+}
+
+.grid{
+    &__item{
+        margin: 3em 0;
+    }
+}
