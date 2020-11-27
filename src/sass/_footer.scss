@@ -13,8 +13,10 @@
     }
     &__row{
         width: 100%;
+        height: 2px;
         margin: 2em;
-        color: $Dark-Grayish-Violet;
+        border: none;
+        background-color: $Dark-Grayish-Violet;
     }
 }
 

@@ -2,6 +2,17 @@
     margin-top: 6.5em;
     &__box{
         flex-direction: column;
+        position: relative;
+
+        &::before{
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            width: 150px;
+            height: 2px;
+            background-color: $Dark-Grayish-Violet;
+        }
     }
 
     &__title,&__subtitle{
@@ -30,6 +41,12 @@
     .features{
         margin-top: 15em;
 
+        &__box{
+            &::before{
+                left: 0;
+            }
+        }
+
         &__title{
             font-size: 4em;
             margin-right: auto;
@@ -39,6 +56,7 @@
         }
         &__paragraph{
             text-align: left;
+            line-height: 25px;
         }
     }
     .grid{
@@ -55,6 +73,14 @@
             &:nth-child(1){
                 margin-left: 0;
             }
+        }
+    }
+}
+
+@media screen and (min-width:1440px){
+    .features{
+        &__paragraph{
+            padding-right: 1em;
         }
     }
 }
