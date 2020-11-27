@@ -3,21 +3,12 @@
     background-color: $Very-Light-Gray;
     padding: 5em 0;
 
-    &::before{
-        content: "";
-        display: block;
-        position: absolute;
-        z-index: 100;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        background-image: url('/docs/assets/background/bg-pattern-footer-mobile.svg');
-        background-repeat: no-repeat;
-    }
+    background-image: url('/docs/assets/background/bg-pattern-footer-mobile.svg');
+    background-repeat: no-repeat;
+    background-position: top left;
 
     &__box{
         position: relative;
-        z-index: 200;
         flex-direction: column;
     }
     &__row{
@@ -57,4 +48,48 @@
         }
     }
 
+}
+
+@media screen and (min-width:1024px){
+    .footer{
+        background-image: url('/docs/assets/background/bg-pattern-footer-desktop.svg');
+    }
+    .socials{
+        width: 100%;
+        display: flex;
+        align-items: center;
+
+        &__logo{
+            margin-bottom: 0;
+        }
+
+        &__redes{
+            margin-left: auto;
+        }
+        &__link{
+            display: flex;
+            align-items: center;
+        }
+        &__img{
+            color: green;
+        }
+    }
+
+    .information{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4,25%);
+
+        &__title{
+            text-align: left;
+        }
+        
+        &__links{
+            align-items: flex-start;
+            
+            &-m{
+                margin-left: 0;
+            }
+        }
+    }
 }

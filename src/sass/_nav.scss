@@ -29,7 +29,10 @@
     &__item{
         margin: 1.5em 0;
         text-transform: uppercase;
-
+    }
+    &__link{
+        color: $White;
+        text-decoration: none;
         &-active{
             @include button;
             padding-left: 5em;
@@ -52,4 +55,63 @@
     display: block;
     margin-right: auto;
     max-width: 100%;
+}
+
+@media screen and (min-width:1024px){
+    .menu{
+        padding: 2em 1em;
+        &__list{
+            visibility: visible;
+            opacity: 100;
+            position: relative;
+
+            height: auto;
+            width: auto;
+            margin: 0;
+
+            background: none;
+        }
+        &__item,&__items{
+            margin: 0;
+        }
+        &__item{
+            margin: 0 1em;
+        }
+
+        &__link{
+            color: $Dark-Grayish-Violet;
+            transition: all .5s;
+
+            &:hover{
+                color: $Very-Dark-Violet;
+            }
+
+            &-active{
+                padding-left: 2em;
+                padding-right: 2em;
+                color: $Very-Dark-Violet;
+                border-color: $Very-Dark-Violet;
+                transition: all .5s;
+    
+                &:hover{
+                    background-color: $Very-Dark-Violet;
+                    color: $White;
+                }
+                
+            }
+        }
+    }
+    .box-menu{
+        &__hamburger{
+            display: none;
+        }
+        &__items{
+            display: flex;
+            color: $Dark-Grayish-Violet;
+            align-items: center;
+            margin: 0;
+
+            font-size: 1em;
+        }
+    }
 }

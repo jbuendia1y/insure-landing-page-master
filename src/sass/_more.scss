@@ -20,6 +20,7 @@
             background-image: url('/docs/assets/background/bg-pattern-how-we-work-mobile.svg');
             background-repeat: no-repeat;
             background-size: contain;
+            background-position: top right;
         }
     }
 
@@ -36,5 +37,33 @@
     &__title,&__button{
         position: relative;
         z-index: 200;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .more{
+        &__box{
+            flex-direction: row;
+            justify-content: center;
+
+            &::before{
+                background-image: url('/docs/assets/background/bg-pattern-how-we-work-desktop.svg');
+            }
+
+            &-center{
+                display: flex;
+                align-items: center;
+                width: 80%;
+            }
+        }
+        &__title{
+            margin: 0;
+            margin-right: auto;
+            width: 39%;
+            text-align: left;
+        }
+        &__button{
+            font-size: 1.25em;
+        }
     }
 }
