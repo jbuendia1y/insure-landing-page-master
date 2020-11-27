@@ -151,7 +151,7 @@ body {
     height: 50%;
     left: 0;
     top: 50%;
-    background-image: url("/docs/assets/background/bg-pattern-intro-left-mobile.svg");
+    background-image: url("/assets/background/bg-pattern-intro-left-mobile.svg");
     background-repeat: no-repeat; }
   .header::after {
     content: "";
@@ -161,7 +161,7 @@ body {
     height: 30%;
     right: 0;
     bottom: -15%;
-    background-image: url("/docs/assets/background/bg-pattern-intro-right-mobile.svg");
+    background-image: url("/assets/background/bg-pattern-intro-right-mobile.svg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right; }
@@ -202,14 +202,14 @@ body {
     width: 100%;
     height: 500px; }
   .header::before {
-    background-image: url("/docs/assets/background/bg-pattern-intro-left-desktop.svg");
+    background-image: url("/assets/background/bg-pattern-intro-left-desktop.svg");
     background-size: contain;
     height: 100%;
     width: 100%; }
   .header::after {
     top: 0;
     height: 100%;
-    background-image: url("/docs/assets/background/bg-pattern-intro-right-desktop.svg");
+    background-image: url("/assets/background/bg-pattern-intro-right-desktop.svg");
     background-size: contain; } }
 
 @media screen and (min-width: 1440px) {
