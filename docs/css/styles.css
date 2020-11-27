@@ -180,7 +180,7 @@ body {
       content: "";
       display: block;
       position: absolute;
-      top: 0;
+      top: -15px;
       width: 110px;
       height: 2px;
       background-color: white; }
@@ -212,7 +212,7 @@ body {
     background-image: url("/assets/background/bg-pattern-intro-right-desktop.svg");
     background-size: contain; } }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1240px) {
   .header__box {
     padding-top: 2em;
     padding-bottom: 2em; }
@@ -221,7 +221,7 @@ body {
     .header__text::before {
       width: 125px; }
   .header__title {
-    font-size: 3.5em;
+    font-size: 3em;
     width: 75%; }
   .header__button {
     padding: .7em 1.5em; }
@@ -234,6 +234,10 @@ body {
     position: relative;
     width: 100%;
     height: 500px; } }
+
+@media screen and (min-width: 1440px) {
+  .header__title {
+    font-size: 3.5em; } }
 
 .features {
   margin-top: 6.5em; }

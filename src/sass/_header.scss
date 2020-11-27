@@ -84,7 +84,7 @@
                 content: "";
                 display: block;
                 position: absolute;
-                top: 0;
+                top: -15px;
                 width: 110px;
                 height: 2px;
                 background-color: $White;
@@ -131,7 +131,7 @@
     }
 }
 
-@media screen and (min-width:1440px){
+@media screen and (min-width:1240px){
     .header{
         &__box{
             padding-top: 2em;
@@ -144,7 +144,7 @@
             }
         }
         &__title{
-            font-size: 3.5em;
+            font-size: 3em;
             width: 75%;
         }
 
@@ -162,6 +162,14 @@
             position: relative;
             width: 100%;
             height: 500px;
+        }
+    }
+}
+
+@media screen and (min-width:1440px){
+    .header{
+        &__title{
+            font-size: 3.5em;
         }
     }
 }
