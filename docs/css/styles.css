@@ -313,7 +313,7 @@ body {
       right: 0;
       width: 60%;
       height: 100%;
-      background-image: url("/docs/assets/background/bg-pattern-how-we-work-mobile.svg");
+      background-image: url("/assets/background/bg-pattern-how-we-work-mobile.svg");
       background-repeat: no-repeat;
       background-size: contain;
       background-position: top right; }
@@ -340,7 +340,7 @@ body {
     flex-direction: row;
     justify-content: center; }
     .more__box::before {
-      background-image: url("/docs/assets/background/bg-pattern-how-we-work-desktop.svg"); }
+      background-image: url("/assets/background/bg-pattern-how-we-work-desktop.svg"); }
     .more__box-center {
       display: flex;
       align-items: center;
@@ -357,7 +357,7 @@ body {
   position: relative;
   background-color: #fafafa;
   padding: 5em 0;
-  background-image: url("/docs/assets/background/bg-pattern-footer-mobile.svg");
+  background-image: url("/assets/background/bg-pattern-footer-mobile.svg");
   background-repeat: no-repeat;
   background-position: top left; }
   .footer__box {
@@ -403,7 +403,7 @@ body {
 
 @media screen and (min-width: 1024px) {
   .footer {
-    background-image: url("/docs/assets/background/bg-pattern-footer-desktop.svg"); }
+    background-image: url("/assets/background/bg-pattern-footer-desktop.svg"); }
   .socials {
     width: 100%;
     display: flex;

@@ -17,7 +17,7 @@
             right: 0;
             width: 60%;
             height: 100%;
-            background-image: url('/docs/assets/background/bg-pattern-how-we-work-mobile.svg');
+            background-image: url('/assets/background/bg-pattern-how-we-work-mobile.svg');
             background-repeat: no-repeat;
             background-size: contain;
             background-position: top right;
@@ -47,7 +47,7 @@
             justify-content: center;
 
             &::before{
-                background-image: url('/docs/assets/background/bg-pattern-how-we-work-desktop.svg');
+                background-image: url('/assets/background/bg-pattern-how-we-work-desktop.svg');
             }
 
             &-center{

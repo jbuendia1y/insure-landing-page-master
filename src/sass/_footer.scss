@@ -3,7 +3,7 @@
     background-color: $Very-Light-Gray;
     padding: 5em 0;
 
-    background-image: url('/docs/assets/background/bg-pattern-footer-mobile.svg');
+    background-image: url('/assets/background/bg-pattern-footer-mobile.svg');
     background-repeat: no-repeat;
     background-position: top left;
 
@@ -63,7 +63,7 @@
 
 @media screen and (min-width:1024px){
     .footer{
-        background-image: url('/docs/assets/background/bg-pattern-footer-desktop.svg');
+        background-image: url('/assets/background/bg-pattern-footer-desktop.svg');
     }
     .socials{
         width: 100%;
