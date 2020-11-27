@@ -26,8 +26,17 @@
         display: flex;
         justify-content: center;
     }
+    &__link{
+        text-decoration: none;
+    }
     &__img{
         margin: .5em;
+        color: $Dark-Grayish-Violet;
+        transition: all .5s;
+
+        &:hover{
+            color: $Dark-Violet;
+        }
     }
 }
 
@@ -69,9 +78,6 @@
         &__link{
             display: flex;
             align-items: center;
-        }
-        &__img{
-            color: green;
         }
     }
 
